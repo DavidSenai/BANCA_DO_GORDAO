@@ -13,6 +13,8 @@ function calculadora(a, b, operacacao) {
     console.log(a / b);
   } else if (operacacao === "%") {
     console.log(a % b);
+  } else {
+    console.log("número ou operação indefinidade");
   }
 }
 calculadora(a, b, operacacao);
